@@ -30,7 +30,6 @@ module RailsWatchList
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
-heroku create $YOUR_APP_NAME --region eu
 
     # Don't generate system test files.
     config.generators.system_tests = nil
